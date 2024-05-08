@@ -7,7 +7,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "dev": "npm run server",
-    "build": "react-scripts build"
+    "build": "npm install && node server.js"
   },
   "dependencies": {
     "axios": "^0.19.2",

@@ -7,7 +7,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "dev": "npm run server",
-    "build": "echo 'Build steps (if any) go here'"
+    "build": "mkdir -p build && echo 'Build complete'"
   },
   "dependencies": {
     "axios": "^0.19.2",

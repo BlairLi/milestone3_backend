@@ -7,7 +7,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "dev": "npm run server",
-    "build": "echo 'Backend build steps here if any'"
+    "build": "react-scripts build"
   },
   "dependencies": {
     "axios": "^0.19.2",

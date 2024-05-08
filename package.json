@@ -7,7 +7,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "dev": "npm run server",
-    "build": "npm install && node server.js"
+    "build": "echo 'Build steps (if any) go here'"
   },
   "dependencies": {
     "axios": "^0.19.2",
